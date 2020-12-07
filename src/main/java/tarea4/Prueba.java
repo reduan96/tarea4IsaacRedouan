@@ -12,5 +12,10 @@ package tarea4;
 public class Prueba {
     public static void main(String[] args) {
         
+        Ejemplos objeto1 = new Ejemplos();
+        System.out.println(objeto1.toString());
+        
+        Ejemplos objeto2 = new Ejemplos(4, 7, 3);
+        System.out.println(objeto2.toString());
     }
 }
